@@ -111,12 +111,6 @@ public:
     // Sigma point spreading parameter
     double lambda_;
 
-    // the current NIS for radar
-    double NIS_radar_;
-
-    // the current NIS for laser
-    double NIS_laser_;
-
     // Process noise matrices
     Eigen::MatrixXd R_laser_;
     Eigen::MatrixXd R_radar_;
